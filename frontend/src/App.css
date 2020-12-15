@@ -1,0 +1,91 @@
+.App {
+  min-height: 100vh;
+  color: white;
+  background-color: #282c34;
+  padding: 20px;
+}
+
+.App-header {
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.Layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.Star-color {
+  color: orange;
+}
+
+.Rate-container {
+  border-top: 2px solid purple;
+  margin-top: 20px;
+}
+
+.New-rating {
+  color: lightcoral;
+}
+
+.Rate-container .fa-star {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.Movie-Item {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+}
+
+.Movie-Item svg {
+  font-size: 1.2rem;
+  margin: 27px 8px;
+}
+
+.Icons {
+  cursor: pointer;
+}
+
+.Login-container {
+  width: 50%;
+  margin: 0 25%;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  font-size: 0.8rem;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+.fa-trash {
+  color: red;
+}
+
+.fa-edit {
+  color: yellow;
+}
+
+.Movie-title {
+  cursor: pointer;
+}
+
+.fa-film {
+  color: coral;
+  transform: rotate(-20deg);
+  padding-right: 5px;
+}
+
+.fa-sign-out-alt {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 1.5rem;
+}
